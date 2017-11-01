@@ -32,23 +32,4 @@ public class ScheduledTasks {
             doUpdate(hello);
         }
     }
-
-//    @Scheduled(cron = "1/2 * * * * *")
-//    public void getGreeting() {
-//        String getURL = "http://localhost:8080/greeting";
-//        Greeting g = restTemplate.getForObject(getURL, Greeting.class);
-//        System.out.println(g.getContent());
-//    }
-//
-//    @Scheduled(cron = "*/2 * * * * *")
-//    public void putGreeting() {
-//        String url = "http://localhost:8080/updateGreeting";
-//        String getURL = "http://localhost:8080/greeting";
-//        Greeting g = restTemplate.getForObject(getURL, Greeting.class);
-//        if (g.getContent().equals("Hello World")) {
-//            restTemplate.put(url, "Goodbye World");
-//        } else {
-//            restTemplate.put(url, "Hello World");
-//        }
-//    }
 }
