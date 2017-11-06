@@ -50,6 +50,11 @@ public class ProjectController {
         return mapper.readValue(new File("./message.txt"), Greeting.class);
     }
 
+    /**
+     * Writes the given vehicle to a local file inventory.txt
+     * @param newVehicle the vehicle to be added to the inventory
+     * @return the vehicle added
+     */
     @RequestMapping(value = "/addVehicle", method = RequestMethod.POST)
     public Vehicle addVehicle(@RequestBody Vehicle newVehicle) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
@@ -63,6 +68,11 @@ public class ProjectController {
         return newVehicle;
     }
 
+    /**
+     * Takes the given id to find the vehicle with the matching id
+     * @param id the id of the vehicle requested
+     * @return the vehicle that matches the id
+     */
     @RequestMapping(value = "/getVehicle/{id}", method = RequestMethod.GET)
     public Vehicle getVehicle(@PathVariable("id") int id) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
@@ -81,6 +91,11 @@ public class ProjectController {
         return null;
     }
 
+    /**
+     * Updates the vehicle with newVehicle's parameters
+     * @param newVehicle the object that will change the current vehicle
+     * @return the vehicle that was updated
+     */
     @RequestMapping(value = "/updateVehicle", method = RequestMethod.PUT)
     public Vehicle updateVehicle(@RequestBody Vehicle newVehicle) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
@@ -99,6 +114,11 @@ public class ProjectController {
         return newVehicle;
     }
 
+    /**
+     * Deletes the vehicle that matches the id given
+     * @param id the id of the vehicle to be deleted
+     * @return a response entity to state the HttpStatus
+     */
     @RequestMapping(value = "/deleteVehicle/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<String> deleteVehicle(@PathVariable("id") int id) throws IOException {
         if (getVehicle(id) != null) {
@@ -121,6 +141,10 @@ public class ProjectController {
         }
     }
 
+    /**
+     * Gets the 10 most recent vehicles added to the list
+     * @return the 10 most recent vehicles in a list of vehicles
+     */
     @RequestMapping(value = "/getLatestVehicles", method = RequestMethod.GET)
     public List<Vehicle> getLatestVehicle() throws IOException {
         ObjectMapper mapper = new ObjectMapper();

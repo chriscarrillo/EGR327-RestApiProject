@@ -15,6 +15,7 @@ public class MyTasks {
     private String url = "https://earnest-sandbox-184720.appspot.com/"; // <-- Cloud URL
     private int id = 1;
 
+    // Adds a new vehicle with random values every 1 second
     @Scheduled(cron = "1/2 * * * * *")
     public void addVehicle() {
         Random rand = new Random();
@@ -27,6 +28,7 @@ public class MyTasks {
         restTemplate.postForObject(addUrl, vehicle, Vehicle.class);
     }
 
+    // Deletes a random vehicle with an id between 1 and 100 every 10 seconds
     @Scheduled(cron = "*/10 * * * * *")
     public void deleteVehicle() {
         Random rand = new Random();
@@ -35,6 +37,7 @@ public class MyTasks {
         restTemplate.delete(deleteUrl);
     }
 
+    // Updates a random vehicle every minute with hard-coded values
     @Scheduled(cron = "* */1 * * * *")
     public void updateVehicle() {
         Random rand = new Random();
@@ -49,6 +52,7 @@ public class MyTasks {
         System.out.println(getVehicle.toString());
     }
 
+    // Returns the 10 most recent vehicles at the top of every hour
     @Scheduled(cron = "0 0 * * * *")
     public void latestVehiclesReport() {
         String getLatestUrl = url + "getLatestVehicles";
