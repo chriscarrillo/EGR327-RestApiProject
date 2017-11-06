@@ -1,6 +1,6 @@
 {"id":1,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":2,"makeModel":"DdwAuzWjwCgnVM`wRaLrNtPpyetMsOPbBQ\\","year":1987,"retailPrice":25470.0}
-{"id":3,"makeModel":"RbyEgKqiOXpaa_qlSrMDdKHYcnBAVsNBN\\k","year":2006,"retailPrice":18957.0}
+{"id":2,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":3,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":4,"makeModel":"eSOKhk\\rMACwYFs`]SSx`FlZjdQg`B_hjJD","year":1999,"retailPrice":32764.0}
 {"id":5,"makeModel":"j]PdbZdnFTRwKJT__cm_LAE^texrPGnhOrL","year":2002,"retailPrice":36931.0}
 {"id":6,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
@@ -8,38 +8,32 @@
 {"id":10,"makeModel":"W^z_[U\\g]ZKjfylucwY\\ydmMicZwBRQEGQl","year":1992,"retailPrice":22587.0}
 {"id":12,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":13,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":14,"makeModel":"qyrBfvemSf]MoClHhsnwtRryKjuYdIJUDt`","year":2012,"retailPrice":23865.0}
-{"id":15,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":16,"makeModel":"iR_Ws`ffjQ\\pyOsWLL^q[[wka`zH^kPNgto","year":1994,"retailPrice":35903.0}
-{"id":17,"makeModel":"skhtLPkjB`ONycQm\\fiqBOIwuJ_eSf`DUaw","year":2011,"retailPrice":43677.0}
-{"id":18,"makeModel":"UgjqAKFoKAOg^x`rCPEWiDEu\\^Nysaugigu","year":1999,"retailPrice":25019.0}
+{"id":14,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":17,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":18,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":19,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":20,"makeModel":"jf]af^_eBnLYhDjjBZZufajcPtg[jSx^tdE","year":1992,"retailPrice":31761.0}
 {"id":21,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":22,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":23,"makeModel":"[_R[f^ayHUyPpmnHBYLPzt^fiiihMSkbKL\\","year":2001,"retailPrice":34064.0}
-{"id":24,"makeModel":"DPpAS]WTZONS]POFpDDaeOJ[ZlIaqajElkV","year":1994,"retailPrice":32860.0}
+{"id":23,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":24,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":25,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":26,"makeModel":"\\hndpedpbuHluAbPVnrspgALMrJdLKLc]Eo","year":2016,"retailPrice":19704.0}
 {"id":27,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":28,"makeModel":"pfCIpQqN]fn^zRtKufNZEUyLxdD]tZxFWWN","year":1991,"retailPrice":37179.0}
+{"id":28,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":29,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":30,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":31,"makeModel":"_A]SOpumUQ\\yszLJFFDeXvLEiBtXOV]kh[G","year":2016,"retailPrice":27675.0}
-{"id":32,"makeModel":"rQjEAafipQmIbLhExHr^[ROlAKJmH]qjNPq","year":1989,"retailPrice":21012.0}
-{"id":33,"makeModel":"pFGtfxaU]TNInrnj`UnnboEc[NBWeRh^tuT","year":2011,"retailPrice":23978.0}
+{"id":32,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":34,"makeModel":"Ffy^TVun]vTmW`jfGzCfKUfHxEDTmXxJnx^","year":1990,"retailPrice":39390.0}
 {"id":35,"makeModel":"fMxEUpDD]Vi^yivtaa`TYCjC[uxGCSBhOrQ","year":2013,"retailPrice":40743.0}
-{"id":36,"makeModel":"ToKxykutKWJzrqmPanCn`rhyNOOfHPeKJDs","year":2010,"retailPrice":18177.0}
-{"id":37,"makeModel":"VKqt^ypmRGRMnBniQWFfT]OTqzEGiqPfZE`","year":2013,"retailPrice":15334.0}
+{"id":36,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":37,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":38,"makeModel":"plZgPS]VCv^SDgLDoyCTWrZ\\s_XY_FXTO_z","year":2003,"retailPrice":32364.0}
 {"id":39,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":40,"makeModel":"Y\\Okbj^eSHpmAldN[wRXMPIkaNw\\cZfyw\\W","year":1995,"retailPrice":36675.0}
 {"id":41,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":42,"makeModel":"BwP]Tl^k`_IpmawgcSqeVNZvDUtOoKTx\\zU","year":1998,"retailPrice":24415.0}
-{"id":43,"makeModel":"UTpTKVl^ov^Q`bGrVOYzMPwLmCRfwCetHXX","year":2001,"retailPrice":17914.0}
-{"id":44,"makeModel":"PWW[jSkY^L^aDFcWO_PZEDiVsvwrPEJeF_z","year":2012,"retailPrice":15969.0}
-{"id":45,"makeModel":"D]Rkc[YLKVyMPlBjRTUDd[zCuHy_HQ\\lGOb","year":2004,"retailPrice":31305.0}
+{"id":43,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":45,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
 {"id":46,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
-{"id":47,"makeModel":"yP\\BJtKknV[pqa[XGx^wnauMgjtlisKwvMu","year":2010,"retailPrice":40744.0}
-{"id":48,"makeModel":"RkX^bRQn[RokycjHez^ie_iTYcUJvwbhmm^","year":2012,"retailPrice":20479.0}
+{"id":47,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}
+{"id":48,"makeModel":"Toyota Corolla","year":2009,"retailPrice":10000.0}

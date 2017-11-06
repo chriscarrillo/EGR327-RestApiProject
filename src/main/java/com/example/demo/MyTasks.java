@@ -11,9 +11,8 @@ import java.util.Random;
 @Component
 public class MyTasks {
 
-    // https://earnest-sandbox-184720.appspot.com/ <-- Cloud URL
     RestTemplate restTemplate = new RestTemplate();
-    private String url = "http://localhost:8080/";
+    private String url = "https://earnest-sandbox-184720.appspot.com/"; // <-- Cloud URL
     private int id = 1;
 
     @Scheduled(cron = "1/2 * * * * *")
