@@ -11,7 +11,7 @@ import java.util.Random;
 @Component
 public class MyTasks {
 
-    // https://earnest-sandbox-184720.appspot.com/createGreeting <-- Cloud URL
+    // https://earnest-sandbox-184720.appspot.com/ <-- Cloud URL
     RestTemplate restTemplate = new RestTemplate();
     private int id = 1;
 
@@ -22,7 +22,7 @@ public class MyTasks {
         int randomYear = rand.nextInt((2016 - 1986) + 1) + 1986;
         double randomPrice = (double) rand.nextInt((45000 - 15000) + 1) + 15000;
 
-        String addUrl = "http://localhost:8080/addVehicle";
+        String addUrl = "https://earnest-sandbox-184720.appspot.com/addVehicle";
         Vehicle vehicle = new Vehicle(id++, generator.generate(35), randomYear, randomPrice);
         restTemplate.postForObject(addUrl, vehicle, Vehicle.class);
     }
@@ -31,7 +31,7 @@ public class MyTasks {
     public void deleteVehicle() {
         Random rand = new Random();
         int randomId = rand.nextInt(101 + 1);
-        String deleteUrl = "http://localhost:8080/deleteVehicle/" + randomId;
+        String deleteUrl = "https://earnest-sandbox-184720.appspot.com/deleteVehicle/" + randomId;
         restTemplate.delete(deleteUrl);
     }
 
@@ -41,8 +41,8 @@ public class MyTasks {
         int randomId = rand.nextInt(101 + 1);
         Vehicle vehicle = new Vehicle(randomId, "Toyota Corolla", 2009, 10000.0);
 
-        String updateUrl = "http://localhost:8080/updateVehicle";
-        String getUrl = "http://localhost:8080/getVehicle/" + randomId;
+        String updateUrl = "https://earnest-sandbox-184720.appspot.com/updateVehicle";
+        String getUrl = "https://earnest-sandbox-184720.appspot.com/getVehicle/" + randomId;
         restTemplate.put(updateUrl, vehicle);
 
         Vehicle getVehicle = restTemplate.getForObject(getUrl, Vehicle.class);
@@ -51,7 +51,7 @@ public class MyTasks {
 
     @Scheduled(cron = "0 0 * * * *")
     public void latestVehiclesReport() {
-        String getLatestUrl = "http://localhost:8080/getLatestVehicles";
+        String getLatestUrl = "https://earnest-sandbox-184720.appspot.com/getLatestVehicles";
         List<Vehicle> recentVehicles = restTemplate.getForObject(getLatestUrl, List.class);
         System.out.println(recentVehicles.toString());
     }
