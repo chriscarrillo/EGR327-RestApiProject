@@ -42,8 +42,9 @@
             <version>2.5</version>
         </dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
 		<dependency>
-			<groupId>commons-text</groupId>
+			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-text</artifactId>
 			<version>1.1</version>
 		</dependency>
